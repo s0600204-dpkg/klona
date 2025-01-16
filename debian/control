@@ -1,0 +1,17 @@
+Source: node-klona
+Section: javascript
+Priority: optional
+Maintainer: s0600204 <dev@s0600204>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-nodejs,
+ nodejs
+Standards-Version: 4.6.2
+Homepage: https://github.com/lukeed/klona
+
+Package: node-klona
+Architecture: all
+Depends:
+ ${misc:Depends}
+Description: A tiny (240B to 501B) and fast utility to "deep clone" Objects, Arrays, Dates, RegExps, and more!
